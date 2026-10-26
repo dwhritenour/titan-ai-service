@@ -1,0 +1,10 @@
+anthropic>=0.40
+mcp>=1.2
+pymssql>=2.2
+python-dotenv>=1.0
+tzdata>=2024.1    # Windows has no system tz database; zoneinfo needs this
+pdfplumber>=0.11  # spec-sheet text + dimension-grid extraction (v1.2)
+openpyxl>=3.1     # Excel export tool
+requests>=2.31    # website crawler (v1.3)
+beautifulsoup4>=4.12  # website HTML parsing (v1.3)
+twilio>=9.0       # Daily Plan proposal SMS (v1.6)

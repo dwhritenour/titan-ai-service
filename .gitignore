@@ -1,0 +1,26 @@
+# Secrets — NEVER commit
+.env
+.env.*
+!.env.example
+
+# Virtual environment & Python bytecode
+venv/
+__pycache__/
+*.py[cod]
+
+# Service binaries
+nssm-2.24/
+nssm
+
+# Logs & debug dumps
+*.log
+login_debug.html
+
+# Generated caches & large data artifacts
+spec_cache.json
+website_cache.json
+*_cache.json
+*.zip
+crops/
+corrosion-out*/
+
